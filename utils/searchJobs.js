@@ -137,7 +137,6 @@ module.exports.fetchData = async (
     job_json["role"] = job?.job_function || job?.role || "Not specified";
     job_json["time"] = job?.job_employment_type || job?.employment_type || "Not specified";
     job_json["website"] = job?.company_url || job?.website || "Not specified";
-    job_json["email"] = "bahri.official@protonmail.com";
     arr.push(job_json);
   }
   
